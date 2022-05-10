@@ -52,7 +52,7 @@ public:
 
     ChordChart();
 
-    void chart(double x, double y, double width, double height, color color);
+    void chart(double x, double y, double width, double height);
     bool checkOverlap(int x, int y);
     void hoverColor();
     void hoverCompress();

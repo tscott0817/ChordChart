@@ -6,7 +6,7 @@ ChordChart::ChordChart() {
 
 }
 
-void ChordChart::chart(double x, double y, double width, double height, color color) {
+void ChordChart::chart(double x, double y, double width, double height) {
 
     gridWidth = 8; // # Columns
     gridHeight = 7; // # Rows

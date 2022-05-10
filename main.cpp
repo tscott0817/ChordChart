@@ -19,7 +19,7 @@ const color yellow(.45, .45, 0);
 const color red(.5, 0, 0);
 
 ChordChart chordChart;
-
+bool canDraw = false;
 // Window settings
 void init() {
     width = 1600;
@@ -44,12 +44,13 @@ void display() {
     glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
 
 //    ChordChart chordChart;
-    chordChart.chart(800, 450, 960, 540, brickRed);
-    chordChart.draw();
+        chordChart.chart(800, 450, 960, 540);
+        chordChart.draw();
 //    CoF cof;
 //    cof.cof();
 
     glFlush();
+
 }
 
 void cursor(int x, int y) {
