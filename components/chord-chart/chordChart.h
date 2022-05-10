@@ -37,7 +37,10 @@ public:
     ChordChart();
 
     void chart(double x, double y, double width, double height, color color);
-
+    bool isOverlappingOne(int x, int y) const;
+    void hover();
+    void release();
+    void draw();
 
 };
 #endif //CHORDCHART_CHORDCHART_H

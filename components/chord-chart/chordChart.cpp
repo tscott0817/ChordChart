@@ -2,11 +2,16 @@
 #include <memory>
 #include <vector>
 
+bool canHover = true;
 ChordChart::ChordChart() {
 
 }
 
 void ChordChart::chart(double x, double y, double width, double height, color color) {
+
+    // How many columns/rows
+    gridWidth = 8;
+    gridHeight = 7;
 
     // Outer container
     Rect container;
@@ -15,17 +20,11 @@ void ChordChart::chart(double x, double y, double width, double height, color co
     container.setColor(grey);
     container.draw();
 
-    // How many columns/rows
-    gridWidth = 8;
-    gridHeight = 7;
-
     // Offset for cells
     double cellWidthPos = 0;
     double cellHeightPos = 0;
 
     // To resize
-//    double translateX = x/2.5;
-//    double translateY = y/2.55;
     double translateX = width/2.5;
     double translateY = height/2.55;
     double scalarW = width/9.6;
@@ -35,34 +34,51 @@ void ChordChart::chart(double x, double y, double width, double height, color co
 
     // 8x7 grid
     // Columns
-    for (int i = 0; i < 7; i++) {
+    if (cells.size() < gridHeight) {
+        for (int i = 0; i < gridHeight; i++) {
 
-        Rect newCell;
-        std::vector<Rect> temp;
+            Rect newCell;
+            std::vector<Rect> temp;
 
-        // Rows
-        for (int j = 0; j < 8; j++) {
+            // Rows
+            for (int j = 0; j < gridWidth; j++) {
 
-            newCell.setColor(black);
-            newCell.setSize(scalarW, scalarH);
-            newCell.setCenter((x + cellWidthPos) - translateX, (y + cellHeightPos) - translateY);
-            temp.push_back(newCell);
-            cellWidthPos += scalarWS;
+                newCell.setColor(black);
+                newCell.setSize(scalarW, scalarH);
+                newCell.setCenter((x + cellWidthPos) - translateX, (y + cellHeightPos) - translateY);
+                temp.push_back(newCell);
+                cellWidthPos += scalarWS;
+            }
+
+            cells.push_back(temp);
+            cellWidthPos = 0; // Reset for next row
+            cellHeightPos += scalarHS;
         }
-
-        cells.push_back(temp);
-        cellWidthPos = 0; // Reset for next row
-        cellHeightPos += scalarHS;
     }
+}
 
-    // Draw contents from vector
-    int it = 0;
+bool ChordChart::isOverlappingOne(int x, int y) const {
+
+    if (y > cells[0][0].getTopY() && y < cells[0][0].getBottomY() && x > cells[0][0].getLeftX() && x < cells[0][0].getRightX()){
+        return true;
+    }
+    else {
+        return false;
+    }
+}
+
+void ChordChart::hover() {
+    cells[0][0].setColor(purple);
+}
+
+void ChordChart::release() {
+    cells[0][0].setColor(black);
+}
+
+void ChordChart::draw() {
     for (const std::vector<Rect> &vec : cells) {
-
         for (Rect rect: vec) {
             rect.draw();
-            printf("%d\n", it);
-            it += 1;
         }
     }
 }

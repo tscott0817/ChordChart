@@ -4,6 +4,7 @@
 #include "components/chord-chart/chordChart.h"
 #include "components/cof/cof.h"
 #include <ctime>
+#include <vector>
 using namespace std;
 
 GLdouble width, height;
@@ -17,15 +18,17 @@ const color green(0, .5, 0);
 const color yellow(.45, .45, 0);
 const color red(.5, 0, 0);
 
+ChordChart chordChart;
+
 // Window settings
 void init() {
-    width = 1920;
-    height = 1080;
+    width = 1600;
+    height = 900;
     srand(time(0));
 }
 
 void initGL() {
-    //glClearColor(0, 90/255.0, 130/255.0, 1);
+    glClearColor(0, 90/255.0, 130/255.0, 1);
 }
 
 void display() {
@@ -40,13 +43,25 @@ void display() {
 
     glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
 
-    ChordChart chordChart;
-    chordChart.chart(960, 540, 960, 540, brickRed);
-
+//    ChordChart chordChart;
+    chordChart.chart(800, 450, 960, 540, brickRed);
+    chordChart.draw();
 //    CoF cof;
 //    cof.cof();
 
     glFlush();
+}
+
+void cursor(int x, int y) {
+    if (chordChart.isOverlappingOne(x, y)) {
+        chordChart.hover();
+    }
+
+    else {
+        chordChart.release();
+    }
+
+    glutPostRedisplay();
 }
 
 void kbd(unsigned char key, int x, int y) {
@@ -57,15 +72,6 @@ void kbd(unsigned char key, int x, int y) {
 
         }
     }
-    glutPostRedisplay();
-}
-
-
-/**
- *  Timer Function
- */
-void mainLoop(int currentTime) {
-
     glutPostRedisplay();
 }
 
@@ -81,15 +87,14 @@ int main(int argc, char** argv) {
     glutInitWindowPosition(300, 150);
     wd = glutCreateWindow("Chord Chart");
 
-    glutDisplayFunc(display);
-
     initGL();
 
+    glutDisplayFunc(display);
+
     glutKeyboardFunc(kbd);
+    glutPassiveMotionFunc(cursor);
 
     glutSetCursor(GLUT_CURSOR_DESTROY);
-
-    //glutTimerFunc(0, mainLoop, 0);
 
     glutMainLoop();
     return 0;
