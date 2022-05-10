@@ -96,7 +96,11 @@ void Circle::changeRadius(double delta) {
 }
 
 void Circle::draw() const {
-    glColor3f(fill.red, fill.green, fill.blue);
+    // Enables transparency
+    glEnable(GL_BLEND);
+    glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+
+    glColor4f(fill.red, fill.green, fill.blue, fill.alpha);
     glBegin(GL_TRIANGLE_FAN);
     glVertex2i(center.x, center.y);
     for (double i = 0; i < 2.0*PI; i += (2.0*PI)/360.0) {

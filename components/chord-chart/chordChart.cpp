@@ -12,7 +12,7 @@ void ChordChart::chart(double x, double y, double width, double height, color co
     Rect container;
     container.setCenter(x, y);
     container.setSize(width, height);
-    container.setColor(brickRed);
+    container.setColor(grey);
     container.draw();
 
     // How many columns/rows
@@ -24,23 +24,26 @@ void ChordChart::chart(double x, double y, double width, double height, color co
     double cellHeightPos = 0;
 
     // To resize
-    double translateX = x/2.5;
-    double translateY = y/2.55;
+//    double translateX = x/2.5;
+//    double translateY = y/2.55;
+    double translateX = width/2.5;
+    double translateY = height/2.55;
     double scalarW = width/9.6;
     double scalarH = height/9;
     double scalarWS = width/8.7; // Width spacing between each cell
     double scalarHS = height/7.7; // Height spacing between each cell
 
-    // Rows
+    // 8x7 grid
+    // Columns
     for (int i = 0; i < 7; i++) {
 
         Rect newCell;
         std::vector<Rect> temp;
 
-        // Columns
+        // Rows
         for (int j = 0; j < 8; j++) {
 
-            newCell.setColor(darkBlue);
+            newCell.setColor(black);
             newCell.setSize(scalarW, scalarH);
             newCell.setCenter((x + cellWidthPos) - translateX, (y + cellHeightPos) - translateY);
             temp.push_back(newCell);
@@ -48,7 +51,7 @@ void ChordChart::chart(double x, double y, double width, double height, color co
         }
 
         cells.push_back(temp);
-        cellWidthPos = 0;
+        cellWidthPos = 0; // Reset for next row
         cellHeightPos += scalarHS;
     }
 

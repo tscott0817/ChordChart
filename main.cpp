@@ -52,7 +52,7 @@ void display() {
 void kbd(unsigned char key, int x, int y) {
 
     switch(key) {
-        // When space key is pressed, activate lights
+
         case 32: {
 
         }
