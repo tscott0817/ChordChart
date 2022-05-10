@@ -2,16 +2,14 @@
 #include <memory>
 #include <vector>
 
-bool canHover = true;
 ChordChart::ChordChart() {
 
 }
 
 void ChordChart::chart(double x, double y, double width, double height, color color) {
 
-    // How many columns/rows
-    gridWidth = 8;
-    gridHeight = 7;
+    gridWidth = 8; // # Columns
+    gridHeight = 7; // # Rows
 
     // Outer container
     Rect container;
@@ -21,20 +19,20 @@ void ChordChart::chart(double x, double y, double width, double height, color co
     container.draw();
 
     // Offset for cells
-    double cellWidthPos = 0;
-    double cellHeightPos = 0;
+    cellWidthPos = 0;
+    cellHeightPos = 0;
 
     // To resize
-    double translateX = width/2.5;
-    double translateY = height/2.55;
-    double scalarW = width/9.6;
-    double scalarH = height/9;
-    double scalarWS = width/8.7; // Width spacing between each cell
-    double scalarHS = height/7.7; // Height spacing between each cell
+    translateX = width/2.5;
+    translateY = height/2.55;
+    scalarW = width/9.6;
+    scalarH = height/9;
+    scalarWS = width/8.7; // Width spacing between each cell
+    scalarHS = height/7.7; // Height spacing between each cell
 
     // 8x7 grid
     // Columns
-    if (cells.size() < gridHeight) {
+    if (cells.size() < gridHeight) { // Does weird fade to black without this check
         for (int i = 0; i < gridHeight; i++) {
 
             Rect newCell;
@@ -48,31 +46,53 @@ void ChordChart::chart(double x, double y, double width, double height, color co
                 newCell.setCenter((x + cellWidthPos) - translateX, (y + cellHeightPos) - translateY);
                 temp.push_back(newCell);
                 cellWidthPos += scalarWS;
+                printf("Total Row Count: %d\n", j);
             }
 
             cells.push_back(temp);
             cellWidthPos = 0; // Reset for next row
             cellHeightPos += scalarHS;
+
+        }
+
+    }
+}
+
+bool ChordChart::checkOverlap(int x, int y) const {
+
+    for (int i = 0; i < cells.size(); i++) {
+
+        for (int j = 0; j < cells[i].size(); j++) {
+
+            if (y > cells[i][j].getTopY() && y < cells[i][j].getBottomY() && x > cells[i][j].getLeftX() &&
+                x < cells[i][j].getRightX()) {
+                return true;
+            }
+        }
+    }
+
+    return false;
+
+}
+
+void ChordChart::hoverColor() {
+
+    for (int i = 0; i < cells.size(); i++) {
+
+        for (int j = 0; j < cells[i].size(); j++) {
+            cells[i][j].setColor(purple);
         }
     }
 }
 
-bool ChordChart::isOverlappingOne(int x, int y) const {
-
-    if (y > cells[0][0].getTopY() && y < cells[0][0].getBottomY() && x > cells[0][0].getLeftX() && x < cells[0][0].getRightX()){
-        return true;
-    }
-    else {
-        return false;
-    }
-}
-
-void ChordChart::hover() {
-    cells[0][0].setColor(purple);
-}
-
 void ChordChart::release() {
-    cells[0][0].setColor(black);
+
+    for (int i = 0; i < cells.size(); i++) {
+
+        for (int j = 0; j < cells[i].size(); j++) {
+            cells[i][j].setColor(black);
+        }
+    }
 }
 
 void ChordChart::draw() {

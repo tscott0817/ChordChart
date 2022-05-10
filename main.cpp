@@ -53,8 +53,8 @@ void display() {
 }
 
 void cursor(int x, int y) {
-    if (chordChart.isOverlappingOne(x, y)) {
-        chordChart.hover();
+    if (chordChart.checkOverlap(x, y)) {
+        chordChart.hoverColor();
     }
 
     else {

@@ -20,25 +20,35 @@ const color cyan (0, 1, 1);
 const color lightWood (171/255.0, 117/255.0, 57/255.0);
 const color darkYellow(90/255.0, 100/255.0, 110/255.0);
 
+
+// TODO: Want this class to inherit from base grid system rather than implement it in .cpp
 class ChordChart {
 
 private:
 
     int gridWidth;
     int gridHeight;
-    std::vector<Circle> cellsCircle;
-    //std::vector<Rect> cells;
 
     // 2D vector test
     std::vector<std::vector<Rect>> cells;
+
+    // Offset for cells
+    double cellWidthPos;
+    double cellHeightPos;
+    double translateX;
+    double translateY;
+    double scalarW;
+    double scalarH;
+    double scalarWS; // Width spacing between each cell
+    double scalarHS; // Height spacing between each cell
 
 public:
 
     ChordChart();
 
     void chart(double x, double y, double width, double height, color color);
-    bool isOverlappingOne(int x, int y) const;
-    void hover();
+    bool checkOverlap(int x, int y) const;
+    void hoverColor();
     void release();
     void draw();
 
