@@ -30,7 +30,7 @@ void ChordChart::chart(double x, double y, double width, double height, color co
     scalarHS = height/7.7; // Height spacing between each cell
 
     // Columns
-    if (cells.size() < gridHeight) { // Build grid only at start of program
+    if (cells.size() < gridHeight) { // Build grid only if empty (at start of program)
 
         for (int i = 0; i < gridHeight; i++) {
 
@@ -76,14 +76,27 @@ void ChordChart::hoverColor() {
     cells[column][row].setColor(purple);
 }
 
-// Don't release if you want the cell to stay the color it changed to
-// TODO: Might want only one general release method
-void ChordChart::releaseColor() {
+// TODO: Remove hardcoded values
+void ChordChart::hoverCompress() {
+    cells[column][row].setSize(scalarW/1.05, scalarH/1.05);
+}
+
+void ChordChart::releaseAll() {
     for (int i = 0; i < cells.size(); i++) {
         for (int j = 0; j < cells[i].size(); j++) {
             cells[i][j].setColor(black);
+            cells[i][j].setSize(scalarW, scalarH);
         }
     }
+}
+
+// Don't release if you want the cell to stay the color it changed to
+void ChordChart::releaseColor() {
+    cells[column][row].setColor(black);
+}
+
+void ChordChart::releaseCompress() {
+    cells[column][row].setSize(scalarW, scalarH);
 }
 
 void ChordChart::draw() {

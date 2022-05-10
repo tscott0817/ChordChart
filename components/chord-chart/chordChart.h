@@ -55,7 +55,10 @@ public:
     void chart(double x, double y, double width, double height, color color);
     bool checkOverlap(int x, int y);
     void hoverColor();
+    void hoverCompress();
+    void releaseAll();
     void releaseColor();
+    void releaseCompress();
     void draw();
 
 };

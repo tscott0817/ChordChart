@@ -55,10 +55,12 @@ void display() {
 void cursor(int x, int y) {
     if (chordChart.checkOverlap(x, y)) {
         chordChart.hoverColor();
+        chordChart.hoverCompress();
     }
 
     else {
-        chordChart.releaseColor();
+        chordChart.releaseAll();
+        //chordChart.releaseColor();
     }
 
     glutPostRedisplay();
