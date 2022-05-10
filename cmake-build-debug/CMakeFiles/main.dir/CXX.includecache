@@ -30,14 +30,6 @@ C:/Program Files/Common Files/freeglut/include/GL/glut.h
 freeglut_std.h
 C:/Program Files/Common Files/freeglut/include/GL/freeglut_std.h
 
-C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/components/chord-chart/chordChart.cpp
-chordChart.h
-C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/components/chord-chart/chordChart.h
-memory
--
-vector
--
-
 C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/components/chord-chart/chordChart.h
 ../../primitiveShapes/shape.h
 C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/primitiveShapes/shape.h
@@ -72,43 +64,17 @@ GLUT/glut.h
 GL/glut.h
 -
 
-C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/primitiveShapes/circle.cpp
-circle.h
-C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/primitiveShapes/circle.h
-../main.h
-C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/main.h
-
 C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/primitiveShapes/circle.h
 shape.h
 C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/primitiveShapes/shape.h
-
-C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/primitiveShapes/cone.cpp
-Cone.h
-C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/primitiveShapes/cone.h
-../main.h
-C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/main.h
 
 C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/primitiveShapes/cone.h
 shape.h
 C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/primitiveShapes/shape.h
 
-C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/primitiveShapes/rect.cpp
-../main.h
-C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/main.h
-rect.h
-C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/primitiveShapes/rect.h
-iostream
--
-
 C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/primitiveShapes/rect.h
 shape.h
 C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/primitiveShapes/shape.h
-
-C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/primitiveShapes/shape.cpp
-shape.h
-C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/primitiveShapes/shape.h
-iostream
--
 
 C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/primitiveShapes/shape.h
 math.h

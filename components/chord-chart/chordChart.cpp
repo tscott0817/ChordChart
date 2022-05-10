@@ -6,40 +6,50 @@ ChordChart::ChordChart() {
 
 }
 
-void ChordChart::chart(int x, int y, double width, double height, color color) {
+void ChordChart::chart(double x, double y, double width, double height, color color) {
 
     // Outer container
-//    Rect container;
-//    container.setCenter(x, y);
-//    container.setSize(width, height);
-//    container.setColor(color);
-//    container.draw();
+    Rect container;
+    container.setCenter(x, y);
+    container.setSize(width, height);
+    container.setColor(brickRed);
+    container.draw();
 
-    // Inner cells
-    //Rect cell;
     // How many columns/rows
     gridWidth = 8;
     gridHeight = 7;
+
+    // Offset for cells
     double cellWidthPos = 0;
     double cellHeightPos = 0;
 
-    // Create new cell
-    Rect newCell;
-    // Fill rows
+    // To resize
+    double translateX = x/2.5;
+    double translateY = y/2.55;
+    double scalarW = width/9.6;
+    double scalarH = height/9;
+    double scalarWS = width/8.7; // Width spacing between each cell
+    double scalarHS = height/7.7; // Height spacing between each cell
+
+    // Rows
     for (int i = 0; i < 7; i++) {
+
+        Rect newCell;
         std::vector<Rect> temp;
+
         // Columns
-        for(int j = 0; j < 8; j++) {
+        for (int j = 0; j < 8; j++) {
+
             newCell.setColor(darkBlue);
-            newCell.setSize(90, 40);
-            newCell.setCenter(x + cellWidthPos, y + cellHeightPos);
+            newCell.setSize(scalarW, scalarH);
+            newCell.setCenter((x + cellWidthPos) - translateX, (y + cellHeightPos) - translateY);
             temp.push_back(newCell);
-            cellWidthPos += 100;
+            cellWidthPos += scalarWS;
         }
 
         cells.push_back(temp);
         cellWidthPos = 0;
-        cellHeightPos += 50;
+        cellHeightPos += scalarHS;
     }
 
     // Draw contents from vector

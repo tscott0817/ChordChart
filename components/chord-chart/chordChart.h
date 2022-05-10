@@ -36,7 +36,7 @@ public:
 
     ChordChart();
 
-    void chart(int x, int y, double width, double height, color color);
+    void chart(double x, double y, double width, double height, color color);
 
 
 };
