@@ -8,11 +8,18 @@ CMakeFiles/main.dir/components/chord-chart/chordChart.cpp.obj
  C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/primitiveShapes/rect.h
  C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/primitiveShapes/shape.h
 CMakeFiles/main.dir/components/cof/cof.cpp.obj
+ C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/components/chord-chart/chordChart.h
  C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/components/cof/cof.cpp
+ C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/components/cof/cof.h
+ C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/primitiveShapes/circle.h
+ C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/primitiveShapes/cone.h
+ C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/primitiveShapes/rect.h
+ C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/primitiveShapes/shape.h
 CMakeFiles/main.dir/main.cpp.obj
  C:/Program Files/Common Files/freeglut/include/GL/freeglut_std.h
  C:/Program Files/Common Files/freeglut/include/GL/glut.h
  C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/components/chord-chart/chordChart.h
+ C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/components/cof/cof.h
  C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/main.cpp
  C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/main.h
  C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/primitiveShapes/circle.h

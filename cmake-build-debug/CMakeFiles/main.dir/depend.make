@@ -7,11 +7,18 @@ CMakeFiles/main.dir/components/chord-chart/chordChart.cpp.obj: ../primitiveShape
 CMakeFiles/main.dir/components/chord-chart/chordChart.cpp.obj: ../primitiveShapes/rect.h
 CMakeFiles/main.dir/components/chord-chart/chordChart.cpp.obj: ../primitiveShapes/shape.h
 
+CMakeFiles/main.dir/components/cof/cof.cpp.obj: ../components/chord-chart/chordChart.h
 CMakeFiles/main.dir/components/cof/cof.cpp.obj: ../components/cof/cof.cpp
+CMakeFiles/main.dir/components/cof/cof.cpp.obj: ../components/cof/cof.h
+CMakeFiles/main.dir/components/cof/cof.cpp.obj: ../primitiveShapes/circle.h
+CMakeFiles/main.dir/components/cof/cof.cpp.obj: ../primitiveShapes/cone.h
+CMakeFiles/main.dir/components/cof/cof.cpp.obj: ../primitiveShapes/rect.h
+CMakeFiles/main.dir/components/cof/cof.cpp.obj: ../primitiveShapes/shape.h
 
 CMakeFiles/main.dir/main.cpp.obj: C:/Program\ Files/Common\ Files/freeglut/include/GL/freeglut_std.h
 CMakeFiles/main.dir/main.cpp.obj: C:/Program\ Files/Common\ Files/freeglut/include/GL/glut.h
 CMakeFiles/main.dir/main.cpp.obj: ../components/chord-chart/chordChart.h
+CMakeFiles/main.dir/main.cpp.obj: ../components/cof/cof.h
 CMakeFiles/main.dir/main.cpp.obj: ../main.cpp
 CMakeFiles/main.dir/main.cpp.obj: ../main.h
 CMakeFiles/main.dir/main.cpp.obj: ../primitiveShapes/circle.h
