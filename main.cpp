@@ -58,7 +58,7 @@ void cursor(int x, int y) {
     }
 
     else {
-        chordChart.release();
+        chordChart.releaseColor();
     }
 
     glutPostRedisplay();

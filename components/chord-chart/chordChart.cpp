@@ -12,7 +12,6 @@ void ChordChart::chart(double x, double y, double width, double height, color co
     gridHeight = 7; // # Rows
 
     // Outer container
-    Rect container;
     container.setCenter(x, y);
     container.setSize(width, height);
     container.setColor(grey);
@@ -30,9 +29,9 @@ void ChordChart::chart(double x, double y, double width, double height, color co
     scalarWS = width/8.7; // Width spacing between each cell
     scalarHS = height/7.7; // Height spacing between each cell
 
-    // 8x7 grid
     // Columns
-    if (cells.size() < gridHeight) { // Does weird fade to black without this check
+    if (cells.size() < gridHeight) { // Build grid only at start of program
+
         for (int i = 0; i < gridHeight; i++) {
 
             Rect newCell;
@@ -46,49 +45,41 @@ void ChordChart::chart(double x, double y, double width, double height, color co
                 newCell.setCenter((x + cellWidthPos) - translateX, (y + cellHeightPos) - translateY);
                 temp.push_back(newCell);
                 cellWidthPos += scalarWS;
-                printf("Total Row Count: %d\n", j);
             }
 
             cells.push_back(temp);
             cellWidthPos = 0; // Reset for next row
             cellHeightPos += scalarHS;
-
         }
-
     }
 }
 
-bool ChordChart::checkOverlap(int x, int y) const {
-
+bool ChordChart::checkOverlap(int x, int y) {
     for (int i = 0; i < cells.size(); i++) {
-
         for (int j = 0; j < cells[i].size(); j++) {
 
+            // Check if mouse in area of a cell
             if (y > cells[i][j].getTopY() && y < cells[i][j].getBottomY() && x > cells[i][j].getLeftX() &&
                 x < cells[i][j].getRightX()) {
+
+                // Hold cell at current mouse pos for interactions
+                column = i;
+                row = j;
                 return true;
             }
         }
     }
-
     return false;
-
 }
 
 void ChordChart::hoverColor() {
-
-    for (int i = 0; i < cells.size(); i++) {
-
-        for (int j = 0; j < cells[i].size(); j++) {
-            cells[i][j].setColor(purple);
-        }
-    }
+    cells[column][row].setColor(purple);
 }
 
-void ChordChart::release() {
-
+// Don't release if you want the cell to stay the color it changed to
+// TODO: Might want only one general release method
+void ChordChart::releaseColor() {
     for (int i = 0; i < cells.size(); i++) {
-
         for (int j = 0; j < cells[i].size(); j++) {
             cells[i][j].setColor(black);
         }

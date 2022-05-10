@@ -31,6 +31,9 @@ private:
 
     // 2D vector test
     std::vector<std::vector<Rect>> cells;
+    std::vector<std::vector<Rect>> curCell;
+
+    Rect container;
 
     // Offset for cells
     double cellWidthPos;
@@ -42,14 +45,17 @@ private:
     double scalarWS; // Width spacing between each cell
     double scalarHS; // Height spacing between each cell
 
+    double column;
+    double row;
+
 public:
 
     ChordChart();
 
     void chart(double x, double y, double width, double height, color color);
-    bool checkOverlap(int x, int y) const;
+    bool checkOverlap(int x, int y);
     void hoverColor();
-    void release();
+    void releaseColor();
     void draw();
 
 };
