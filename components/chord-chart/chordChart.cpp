@@ -1,9 +1,11 @@
 #include "chordChart.h"
+#include "../../main.h"
 #include <memory>
 #include <vector>
 
 ChordChart::ChordChart() {
 
+    this->label = "Test";
 }
 
 void ChordChart::chart(double x, double y, double width, double height) {
@@ -102,7 +104,16 @@ void ChordChart::releaseCompress() {
 void ChordChart::draw() {
     for (const std::vector<Rect> &vec : cells) {
         for (Rect rect: vec) {
+
+            // Draw cells first
             rect.draw();
+
+            // Center text on ui elements and draw on top of cells
+            glRasterPos2i(rect.getLeftX(), rect.getTopY());
+            glColor3f(1, 1, 1);
+            for (const char &letter : label) {
+                glutBitmapCharacter(GLUT_BITMAP_TIMES_ROMAN_24, letter);
+            }
         }
     }
 }

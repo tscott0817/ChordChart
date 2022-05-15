@@ -18,6 +18,8 @@ public:
     void thirteenthChords(std::vector<std::string> scale);
     std::vector<std::string> seventhChords(std::vector<std::string> scales);
 
+    void printChords();
+
 
 };
 #endif //CHORDCHART_CHORDS_H

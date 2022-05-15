@@ -30,6 +30,16 @@ C:/Program Files/Common Files/freeglut/include/GL/glut.h
 freeglut_std.h
 C:/Program Files/Common Files/freeglut/include/GL/freeglut_std.h
 
+C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/components/chord-chart/chordChart.cpp
+chordChart.h
+C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/components/chord-chart/chordChart.h
+../../main.h
+C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/main.h
+memory
+-
+vector
+-
+
 C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/components/chord-chart/chordChart.h
 ../primitiveShapes/shape.h
 C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/components/primitiveShapes/shape.h
@@ -40,23 +50,7 @@ C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/components/primitiveShapes
 vector
 -
 
-C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/components/cof/cof.h
-../primitiveShapes/shape.h
-C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/components/primitiveShapes/shape.h
-../primitiveShapes/rect.h
-C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/components/primitiveShapes/rect.h
-../primitiveShapes/circle.h
 C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/components/primitiveShapes/circle.h
-../primitiveShapes/cone.h
-C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/components/primitiveShapes/cone.h
-vector
--
-
-C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/components/primitiveShapes/circle.h
-shape.h
-C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/components/primitiveShapes/shape.h
-
-C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/components/primitiveShapes/cone.h
 shape.h
 C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/components/primitiveShapes/shape.h
 
@@ -70,30 +64,6 @@ math.h
 string
 -
 
-C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/main.cpp
-main.h
-C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/main.h
-components/primitiveShapes/circle.h
-C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/components/primitiveShapes/circle.h
-components/primitiveShapes/cone.h
-C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/components/primitiveShapes/cone.h
-components/chord-chart/chordChart.h
-C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/components/chord-chart/chordChart.h
-components/cof/cof.h
-C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/components/cof/cof.h
-models/scales.h
-C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/models/scales.h
-models/chords.h
-C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/models/chords.h
-iostream
--
-ctime
--
-vector
--
-models/scales.h
-C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/models/scales.h
-
 C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/main.h
 stdlib.h
 -
@@ -105,18 +75,4 @@ GLUT/glut.h
 -
 GL/glut.h
 -
-
-C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/models/chords.h
-scales.h
-C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/models/scales.h
-vector
--
-string
--
-
-C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/models/scales.h
-vector
-C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/models/vector
-string
-C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/models/string
 

@@ -48,6 +48,9 @@ private:
     double column;
     double row;
 
+    // Text for cells
+    std::string label;
+
 public:
 
     ChordChart();

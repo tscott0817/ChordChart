@@ -24,9 +24,9 @@ std::vector<std::string> Chords::seventhChords(std::vector<std::string> scale) {
     for (int i = 0; i < scale.size(); i++) { // Need the outer loop to keep the inner one from looping forever
 
         std::string tempString;
-        for (int j = i; j < scale.size() + i; j+=2) { // TODO: Implement flat keys, this only return natural and sharp
+        for (int j = i; j < scale.size() + i; j+=2) { // TODO: Implement flat keys, this only returns natural and sharp
 
-            if (scale[j % scale.size()].size() == 1) {
+            if (scale[j % scale.size()].size() == 1) { // Checks size of string at specific scale index for '#' symbol
                 tempString.push_back(scale[j % scale.size()][0]);
             }
 
@@ -40,4 +40,7 @@ std::vector<std::string> Chords::seventhChords(std::vector<std::string> scale) {
     }
 
     return chords;
+}
+
+void Chords::printChords() {
 }

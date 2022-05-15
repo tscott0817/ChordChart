@@ -40,7 +40,7 @@ void initGL() {
 void initTests() {
 
     Scales scales;
-    std::vector<std::string> scale = scales.buildScale('B');
+    std::vector<std::string> scale = scales.buildScale('C');
 
     std::cout << "Notes from scale: " << std::endl;
     for (int i = 0; i < scale.size(); i++) {
@@ -116,18 +116,18 @@ int main(int argc, char** argv) {
 
     glutInitWindowSize((int)width, (int)height);
     glutInitWindowPosition(300, 150);
-    //wd = glutCreateWindow("Chord Chart");
+    wd = glutCreateWindow("Chord Chart");
 
     initGL();
     initTests();
 
-    //glutDisplayFunc(display);
+    glutDisplayFunc(display);
 
     glutKeyboardFunc(kbd);
-    //glutPassiveMotionFunc(cursor);
+    glutPassiveMotionFunc(cursor);
 
-    //glutSetCursor(GLUT_CURSOR_DESTROY);
+    glutSetCursor(GLUT_CURSOR_DESTROY);
 
-    //glutMainLoop();
+    glutMainLoop();
     return 0;
 }
