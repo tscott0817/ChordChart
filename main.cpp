@@ -38,15 +38,25 @@ void initGL() {
 }
 
 void initTests() {
-    //    Scales scales;
-    //    scales.diatonic();
 
-    std::vector<std::string> scale = {"C", "D", "E", "F", "G", "A", "B"}; // This will come from scales class
+    Scales scales;
+    std::vector<std::string> scale = scales.buildScale('B');
+
+    std::cout << "Notes from scale: " << std::endl;
+    for (int i = 0; i < scale.size(); i++) {
+        std::cout << scale[i] << "-";
+    }
 
     Chords chords;
-    chords.thirteenthChords(scale);
+//    chords.thirteenthChords(scale);
     std::cout << "\n";
-    chords.seventhChords(scale);
+    std::vector<std::string> chord = chords.seventhChords(scale);
+    std::cout << "\n";
+
+    std::cout << "Chords from scale: " << std::endl;
+    for (int i = 0; i < chord.size(); i++) {
+        std::cout << chord[i] << std::endl;
+    }
 }
 
 void display() {

@@ -9,14 +9,14 @@ class Chords {
 
 private:
 
-    std::vector<std::string> scale = {"C", "D", "E", "F", "G", "A", "B"};
+    std::vector<std::string> chords;
 
 public:
 
     Chords();
 
     void thirteenthChords(std::vector<std::string> scale);
-    void seventhChords(std::vector<std::string> scales);
+    std::vector<std::string> seventhChords(std::vector<std::string> scales);
 
 
 };

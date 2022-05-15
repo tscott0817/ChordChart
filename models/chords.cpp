@@ -18,15 +18,26 @@ void Chords::thirteenthChords(std::vector<std::string> scale) {
     }
 }
 
-void Chords::seventhChords(std::vector<std::string> scale) {
+std::vector<std::string> Chords::seventhChords(std::vector<std::string> scale) {
 
     // i = note index position
     for (int i = 0; i < scale.size(); i++) { // Need the outer loop to keep the inner one from looping forever
 
-        // At current note index, iterate by 2 until
-        for (int j = i; j < scale.size() + i; j+=2) {
-            std::cout << scale[j % scale.size()];
+        std::string tempString;
+        for (int j = i; j < scale.size() + i; j+=2) { // TODO: Implement flat keys, this only return natural and sharp
+
+            if (scale[j % scale.size()].size() == 1) {
+                tempString.push_back(scale[j % scale.size()][0]);
+            }
+
+            else {
+                tempString.push_back(scale[j % scale.size()][0]);
+                tempString.push_back(scale[j % scale.size()][1]);
+            }
         }
-        std::cout << "\n";
+
+        chords.push_back(tempString);
     }
+
+    return chords;
 }

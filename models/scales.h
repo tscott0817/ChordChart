@@ -10,13 +10,15 @@ private:
 
 
     std::vector<std::string> notes = {"A", "A#/Bb", "B", "C", "C#/Db", "D", "D#/Eb", "E", "F", "F#/Gb", "G", "G#/Ab"};
+    std::vector<std::string> scale;
 
 public:
 
     Scales();
 
+    std::vector<std::string> buildScale(char key);
     void diatonic();
-    void buildScale(char key, std::string mode);
+    char getKey(char key); // Helper function for buildScale()
 
 
 
