@@ -29,9 +29,10 @@ file(GLOB SOURCE_FILES
         )
 
 add_executable(main ${SOURCE_FILES} components/chord-chart/chordChart.h components/chord-chart/chordChart.cpp components/cof/cof.h
-                                    components/cof/cof.cpp primitiveShapes/circle.h primitiveShapes/circle.cpp
-                                    primitiveShapes/cone.h primitiveShapes/cone.cpp primitiveShapes/rect.cpp
-                                    primitiveShapes/rect.cpp primitiveShapes/shape.h primitiveShapes/shape.cpp)
+                                    components/cof/cof.cpp components/primitiveShapes/circle.h components/primitiveShapes/circle.cpp
+                                    components/primitiveShapes/cone.h components/primitiveShapes/cone.cpp components/primitiveShapes/rect.cpp
+                                    components/primitiveShapes/rect.cpp components/primitiveShapes/shape.h components/primitiveShapes/shape.cpp
+                                    models/scales.h models/scales.cpp models/chords.h models/chords.cpp)
 
 if (WIN32)
     target_link_libraries (main ${OPENGL_LIBRARIES} freeglut)

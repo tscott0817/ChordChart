@@ -2,10 +2,10 @@
 #define CHORDCHART_COF_H
 
 
-#include "../../primitiveShapes/shape.h"
-#include "../../primitiveShapes/rect.h"
-#include "../../primitiveShapes/circle.h"
-#include "../../primitiveShapes/cone.h"
+#include "../primitiveShapes/shape.h"
+#include "../primitiveShapes/rect.h"
+#include "../primitiveShapes/circle.h"
+#include "../primitiveShapes/cone.h"
 #include <vector>
 
 

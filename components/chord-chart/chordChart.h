@@ -1,9 +1,9 @@
 #ifndef CHORDCHART_CHORDCHART_H
 #define CHORDCHART_CHORDCHART_H
 
-#include "../../primitiveShapes/shape.h"
-#include "../../primitiveShapes/rect.h"
-#include "../../primitiveShapes/circle.h"
+#include "../primitiveShapes/shape.h"
+#include "../primitiveShapes/rect.h"
+#include "../primitiveShapes/circle.h"
 #include <vector>
 
 const color skyBlue(77/255.0, 213/255.0, 240/255.0);

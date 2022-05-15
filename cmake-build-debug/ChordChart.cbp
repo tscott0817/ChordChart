@@ -94,34 +94,46 @@
 		<Unit filename="C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/components/cof/cof.h">
 			<Option target="main"/>
 		</Unit>
+		<Unit filename="C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/components/primitiveShapes/circle.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/components/primitiveShapes/circle.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/components/primitiveShapes/cone.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/components/primitiveShapes/cone.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/components/primitiveShapes/rect.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/components/primitiveShapes/rect.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/components/primitiveShapes/shape.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/components/primitiveShapes/shape.h">
+			<Option target="main"/>
+		</Unit>
 		<Unit filename="C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/main.cpp">
 			<Option target="main"/>
 		</Unit>
 		<Unit filename="C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/main.h">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/primitiveShapes/circle.cpp">
+		<Unit filename="C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/models/chords.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/primitiveShapes/circle.h">
+		<Unit filename="C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/models/chords.h">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/primitiveShapes/cone.cpp">
+		<Unit filename="C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/models/scales.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/primitiveShapes/cone.h">
-			<Option target="main"/>
-		</Unit>
-		<Unit filename="C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/primitiveShapes/rect.cpp">
-			<Option target="main"/>
-		</Unit>
-		<Unit filename="C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/primitiveShapes/rect.h">
-			<Option target="main"/>
-		</Unit>
-		<Unit filename="C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/primitiveShapes/shape.cpp">
-			<Option target="main"/>
-		</Unit>
-		<Unit filename="C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/primitiveShapes/shape.h">
+		<Unit filename="C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/models/scales.h">
 			<Option target="main"/>
 		</Unit>
 		<Unit filename="C:/Users/tyler/Desktop/Coding/C++/Projects/ChordChart/CMakeLists.txt">

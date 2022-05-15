@@ -1,6 +1,6 @@
 #ifndef CHORDCHART_SHAPE_H
 #define CHORDCHART_SHAPE_H
-#include <math.h> // This allows you to use sqrt and pow functions
+#include <math.h>
 #include <string>
 
 const double PI = 3.14159265358979323846;
@@ -9,7 +9,7 @@ struct color {
     double red;
     double green;
     double blue;
-    double alpha; // Opacity (0 is transparent, 1 is solid)
+    double alpha;
 
     /* Constructors */
     color();

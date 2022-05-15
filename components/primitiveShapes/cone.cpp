@@ -1,5 +1,5 @@
-#include "Cone.h"
-#include "../main.h"
+#include "cone.h"
+#include "../../main.h"
 
 Cone::Cone() : Shape(), radius(0) {
 }

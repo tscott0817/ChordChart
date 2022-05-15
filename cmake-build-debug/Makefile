@@ -196,6 +196,114 @@ components/cof/cof.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/components/cof/cof.cpp.s
 .PHONY : components/cof/cof.cpp.s
 
+components/primitiveShapes/circle.obj: components/primitiveShapes/circle.cpp.obj
+
+.PHONY : components/primitiveShapes/circle.obj
+
+# target to build an object file
+components/primitiveShapes/circle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/components/primitiveShapes/circle.cpp.obj
+.PHONY : components/primitiveShapes/circle.cpp.obj
+
+components/primitiveShapes/circle.i: components/primitiveShapes/circle.cpp.i
+
+.PHONY : components/primitiveShapes/circle.i
+
+# target to preprocess a source file
+components/primitiveShapes/circle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/components/primitiveShapes/circle.cpp.i
+.PHONY : components/primitiveShapes/circle.cpp.i
+
+components/primitiveShapes/circle.s: components/primitiveShapes/circle.cpp.s
+
+.PHONY : components/primitiveShapes/circle.s
+
+# target to generate assembly for a file
+components/primitiveShapes/circle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/components/primitiveShapes/circle.cpp.s
+.PHONY : components/primitiveShapes/circle.cpp.s
+
+components/primitiveShapes/cone.obj: components/primitiveShapes/cone.cpp.obj
+
+.PHONY : components/primitiveShapes/cone.obj
+
+# target to build an object file
+components/primitiveShapes/cone.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/components/primitiveShapes/cone.cpp.obj
+.PHONY : components/primitiveShapes/cone.cpp.obj
+
+components/primitiveShapes/cone.i: components/primitiveShapes/cone.cpp.i
+
+.PHONY : components/primitiveShapes/cone.i
+
+# target to preprocess a source file
+components/primitiveShapes/cone.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/components/primitiveShapes/cone.cpp.i
+.PHONY : components/primitiveShapes/cone.cpp.i
+
+components/primitiveShapes/cone.s: components/primitiveShapes/cone.cpp.s
+
+.PHONY : components/primitiveShapes/cone.s
+
+# target to generate assembly for a file
+components/primitiveShapes/cone.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/components/primitiveShapes/cone.cpp.s
+.PHONY : components/primitiveShapes/cone.cpp.s
+
+components/primitiveShapes/rect.obj: components/primitiveShapes/rect.cpp.obj
+
+.PHONY : components/primitiveShapes/rect.obj
+
+# target to build an object file
+components/primitiveShapes/rect.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/components/primitiveShapes/rect.cpp.obj
+.PHONY : components/primitiveShapes/rect.cpp.obj
+
+components/primitiveShapes/rect.i: components/primitiveShapes/rect.cpp.i
+
+.PHONY : components/primitiveShapes/rect.i
+
+# target to preprocess a source file
+components/primitiveShapes/rect.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/components/primitiveShapes/rect.cpp.i
+.PHONY : components/primitiveShapes/rect.cpp.i
+
+components/primitiveShapes/rect.s: components/primitiveShapes/rect.cpp.s
+
+.PHONY : components/primitiveShapes/rect.s
+
+# target to generate assembly for a file
+components/primitiveShapes/rect.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/components/primitiveShapes/rect.cpp.s
+.PHONY : components/primitiveShapes/rect.cpp.s
+
+components/primitiveShapes/shape.obj: components/primitiveShapes/shape.cpp.obj
+
+.PHONY : components/primitiveShapes/shape.obj
+
+# target to build an object file
+components/primitiveShapes/shape.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/components/primitiveShapes/shape.cpp.obj
+.PHONY : components/primitiveShapes/shape.cpp.obj
+
+components/primitiveShapes/shape.i: components/primitiveShapes/shape.cpp.i
+
+.PHONY : components/primitiveShapes/shape.i
+
+# target to preprocess a source file
+components/primitiveShapes/shape.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/components/primitiveShapes/shape.cpp.i
+.PHONY : components/primitiveShapes/shape.cpp.i
+
+components/primitiveShapes/shape.s: components/primitiveShapes/shape.cpp.s
+
+.PHONY : components/primitiveShapes/shape.s
+
+# target to generate assembly for a file
+components/primitiveShapes/shape.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/components/primitiveShapes/shape.cpp.s
+.PHONY : components/primitiveShapes/shape.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -223,113 +331,59 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-primitiveShapes/circle.obj: primitiveShapes/circle.cpp.obj
+models/chords.obj: models/chords.cpp.obj
 
-.PHONY : primitiveShapes/circle.obj
-
-# target to build an object file
-primitiveShapes/circle.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/primitiveShapes/circle.cpp.obj
-.PHONY : primitiveShapes/circle.cpp.obj
-
-primitiveShapes/circle.i: primitiveShapes/circle.cpp.i
-
-.PHONY : primitiveShapes/circle.i
-
-# target to preprocess a source file
-primitiveShapes/circle.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/primitiveShapes/circle.cpp.i
-.PHONY : primitiveShapes/circle.cpp.i
-
-primitiveShapes/circle.s: primitiveShapes/circle.cpp.s
-
-.PHONY : primitiveShapes/circle.s
-
-# target to generate assembly for a file
-primitiveShapes/circle.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/primitiveShapes/circle.cpp.s
-.PHONY : primitiveShapes/circle.cpp.s
-
-primitiveShapes/cone.obj: primitiveShapes/cone.cpp.obj
-
-.PHONY : primitiveShapes/cone.obj
+.PHONY : models/chords.obj
 
 # target to build an object file
-primitiveShapes/cone.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/primitiveShapes/cone.cpp.obj
-.PHONY : primitiveShapes/cone.cpp.obj
+models/chords.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/models/chords.cpp.obj
+.PHONY : models/chords.cpp.obj
 
-primitiveShapes/cone.i: primitiveShapes/cone.cpp.i
+models/chords.i: models/chords.cpp.i
 
-.PHONY : primitiveShapes/cone.i
+.PHONY : models/chords.i
 
 # target to preprocess a source file
-primitiveShapes/cone.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/primitiveShapes/cone.cpp.i
-.PHONY : primitiveShapes/cone.cpp.i
+models/chords.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/models/chords.cpp.i
+.PHONY : models/chords.cpp.i
 
-primitiveShapes/cone.s: primitiveShapes/cone.cpp.s
+models/chords.s: models/chords.cpp.s
 
-.PHONY : primitiveShapes/cone.s
+.PHONY : models/chords.s
 
 # target to generate assembly for a file
-primitiveShapes/cone.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/primitiveShapes/cone.cpp.s
-.PHONY : primitiveShapes/cone.cpp.s
+models/chords.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/models/chords.cpp.s
+.PHONY : models/chords.cpp.s
 
-primitiveShapes/rect.obj: primitiveShapes/rect.cpp.obj
+models/scales.obj: models/scales.cpp.obj
 
-.PHONY : primitiveShapes/rect.obj
+.PHONY : models/scales.obj
 
 # target to build an object file
-primitiveShapes/rect.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/primitiveShapes/rect.cpp.obj
-.PHONY : primitiveShapes/rect.cpp.obj
+models/scales.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/models/scales.cpp.obj
+.PHONY : models/scales.cpp.obj
 
-primitiveShapes/rect.i: primitiveShapes/rect.cpp.i
+models/scales.i: models/scales.cpp.i
 
-.PHONY : primitiveShapes/rect.i
-
-# target to preprocess a source file
-primitiveShapes/rect.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/primitiveShapes/rect.cpp.i
-.PHONY : primitiveShapes/rect.cpp.i
-
-primitiveShapes/rect.s: primitiveShapes/rect.cpp.s
-
-.PHONY : primitiveShapes/rect.s
-
-# target to generate assembly for a file
-primitiveShapes/rect.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/primitiveShapes/rect.cpp.s
-.PHONY : primitiveShapes/rect.cpp.s
-
-primitiveShapes/shape.obj: primitiveShapes/shape.cpp.obj
-
-.PHONY : primitiveShapes/shape.obj
-
-# target to build an object file
-primitiveShapes/shape.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/primitiveShapes/shape.cpp.obj
-.PHONY : primitiveShapes/shape.cpp.obj
-
-primitiveShapes/shape.i: primitiveShapes/shape.cpp.i
-
-.PHONY : primitiveShapes/shape.i
+.PHONY : models/scales.i
 
 # target to preprocess a source file
-primitiveShapes/shape.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/primitiveShapes/shape.cpp.i
-.PHONY : primitiveShapes/shape.cpp.i
+models/scales.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/models/scales.cpp.i
+.PHONY : models/scales.cpp.i
 
-primitiveShapes/shape.s: primitiveShapes/shape.cpp.s
+models/scales.s: models/scales.cpp.s
 
-.PHONY : primitiveShapes/shape.s
+.PHONY : models/scales.s
 
 # target to generate assembly for a file
-primitiveShapes/shape.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/primitiveShapes/shape.cpp.s
-.PHONY : primitiveShapes/shape.cpp.s
+models/scales.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/models/scales.cpp.s
+.PHONY : models/scales.cpp.s
 
 # Help Target
 help:
@@ -346,21 +400,27 @@ help:
 	@echo ... components/cof/cof.obj
 	@echo ... components/cof/cof.i
 	@echo ... components/cof/cof.s
+	@echo ... components/primitiveShapes/circle.obj
+	@echo ... components/primitiveShapes/circle.i
+	@echo ... components/primitiveShapes/circle.s
+	@echo ... components/primitiveShapes/cone.obj
+	@echo ... components/primitiveShapes/cone.i
+	@echo ... components/primitiveShapes/cone.s
+	@echo ... components/primitiveShapes/rect.obj
+	@echo ... components/primitiveShapes/rect.i
+	@echo ... components/primitiveShapes/rect.s
+	@echo ... components/primitiveShapes/shape.obj
+	@echo ... components/primitiveShapes/shape.i
+	@echo ... components/primitiveShapes/shape.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... primitiveShapes/circle.obj
-	@echo ... primitiveShapes/circle.i
-	@echo ... primitiveShapes/circle.s
-	@echo ... primitiveShapes/cone.obj
-	@echo ... primitiveShapes/cone.i
-	@echo ... primitiveShapes/cone.s
-	@echo ... primitiveShapes/rect.obj
-	@echo ... primitiveShapes/rect.i
-	@echo ... primitiveShapes/rect.s
-	@echo ... primitiveShapes/shape.obj
-	@echo ... primitiveShapes/shape.i
-	@echo ... primitiveShapes/shape.s
+	@echo ... models/chords.obj
+	@echo ... models/chords.i
+	@echo ... models/chords.s
+	@echo ... models/scales.obj
+	@echo ... models/scales.i
+	@echo ... models/scales.s
 .PHONY : help
 
 

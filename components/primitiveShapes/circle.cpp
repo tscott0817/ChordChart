@@ -1,5 +1,5 @@
 #include "circle.h"
-#include "../main.h"
+#include "../../main.h"
 
 Circle::Circle() : Shape(), radius(0) {
 }

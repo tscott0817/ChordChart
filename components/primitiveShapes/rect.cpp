@@ -1,4 +1,4 @@
-#include "../main.h"
+#include "../../main.h"
 #include "rect.h"
 #include <iostream>
 using namespace std;

@@ -118,71 +118,101 @@ CMakeFiles/main.dir/components/cof/cof.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/components/cof/cof.cpp.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\tyler\Desktop\Coding\C++\Projects\ChordChart\components\cof\cof.cpp -o CMakeFiles\main.dir\components\cof\cof.cpp.s
 
-CMakeFiles/main.dir/primitiveShapes/circle.cpp.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/primitiveShapes/circle.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
-CMakeFiles/main.dir/primitiveShapes/circle.cpp.obj: ../primitiveShapes/circle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\tyler\Desktop\Coding\C++\Projects\ChordChart\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/primitiveShapes/circle.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\main.dir\primitiveShapes\circle.cpp.obj -c C:\Users\tyler\Desktop\Coding\C++\Projects\ChordChart\primitiveShapes\circle.cpp
+CMakeFiles/main.dir/components/primitiveShapes/circle.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/components/primitiveShapes/circle.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/components/primitiveShapes/circle.cpp.obj: ../components/primitiveShapes/circle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\tyler\Desktop\Coding\C++\Projects\ChordChart\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/components/primitiveShapes/circle.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\main.dir\components\primitiveShapes\circle.cpp.obj -c C:\Users\tyler\Desktop\Coding\C++\Projects\ChordChart\components\primitiveShapes\circle.cpp
 
-CMakeFiles/main.dir/primitiveShapes/circle.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/primitiveShapes/circle.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\tyler\Desktop\Coding\C++\Projects\ChordChart\primitiveShapes\circle.cpp > CMakeFiles\main.dir\primitiveShapes\circle.cpp.i
+CMakeFiles/main.dir/components/primitiveShapes/circle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/components/primitiveShapes/circle.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\tyler\Desktop\Coding\C++\Projects\ChordChart\components\primitiveShapes\circle.cpp > CMakeFiles\main.dir\components\primitiveShapes\circle.cpp.i
 
-CMakeFiles/main.dir/primitiveShapes/circle.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/primitiveShapes/circle.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\tyler\Desktop\Coding\C++\Projects\ChordChart\primitiveShapes\circle.cpp -o CMakeFiles\main.dir\primitiveShapes\circle.cpp.s
+CMakeFiles/main.dir/components/primitiveShapes/circle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/components/primitiveShapes/circle.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\tyler\Desktop\Coding\C++\Projects\ChordChart\components\primitiveShapes\circle.cpp -o CMakeFiles\main.dir\components\primitiveShapes\circle.cpp.s
 
-CMakeFiles/main.dir/primitiveShapes/cone.cpp.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/primitiveShapes/cone.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
-CMakeFiles/main.dir/primitiveShapes/cone.cpp.obj: ../primitiveShapes/cone.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\tyler\Desktop\Coding\C++\Projects\ChordChart\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/primitiveShapes/cone.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\main.dir\primitiveShapes\cone.cpp.obj -c C:\Users\tyler\Desktop\Coding\C++\Projects\ChordChart\primitiveShapes\cone.cpp
+CMakeFiles/main.dir/components/primitiveShapes/cone.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/components/primitiveShapes/cone.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/components/primitiveShapes/cone.cpp.obj: ../components/primitiveShapes/cone.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\tyler\Desktop\Coding\C++\Projects\ChordChart\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/components/primitiveShapes/cone.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\main.dir\components\primitiveShapes\cone.cpp.obj -c C:\Users\tyler\Desktop\Coding\C++\Projects\ChordChart\components\primitiveShapes\cone.cpp
 
-CMakeFiles/main.dir/primitiveShapes/cone.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/primitiveShapes/cone.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\tyler\Desktop\Coding\C++\Projects\ChordChart\primitiveShapes\cone.cpp > CMakeFiles\main.dir\primitiveShapes\cone.cpp.i
+CMakeFiles/main.dir/components/primitiveShapes/cone.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/components/primitiveShapes/cone.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\tyler\Desktop\Coding\C++\Projects\ChordChart\components\primitiveShapes\cone.cpp > CMakeFiles\main.dir\components\primitiveShapes\cone.cpp.i
 
-CMakeFiles/main.dir/primitiveShapes/cone.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/primitiveShapes/cone.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\tyler\Desktop\Coding\C++\Projects\ChordChart\primitiveShapes\cone.cpp -o CMakeFiles\main.dir\primitiveShapes\cone.cpp.s
+CMakeFiles/main.dir/components/primitiveShapes/cone.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/components/primitiveShapes/cone.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\tyler\Desktop\Coding\C++\Projects\ChordChart\components\primitiveShapes\cone.cpp -o CMakeFiles\main.dir\components\primitiveShapes\cone.cpp.s
 
-CMakeFiles/main.dir/primitiveShapes/rect.cpp.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/primitiveShapes/rect.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
-CMakeFiles/main.dir/primitiveShapes/rect.cpp.obj: ../primitiveShapes/rect.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\tyler\Desktop\Coding\C++\Projects\ChordChart\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/primitiveShapes/rect.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\main.dir\primitiveShapes\rect.cpp.obj -c C:\Users\tyler\Desktop\Coding\C++\Projects\ChordChart\primitiveShapes\rect.cpp
+CMakeFiles/main.dir/components/primitiveShapes/rect.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/components/primitiveShapes/rect.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/components/primitiveShapes/rect.cpp.obj: ../components/primitiveShapes/rect.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\tyler\Desktop\Coding\C++\Projects\ChordChart\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/components/primitiveShapes/rect.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\main.dir\components\primitiveShapes\rect.cpp.obj -c C:\Users\tyler\Desktop\Coding\C++\Projects\ChordChart\components\primitiveShapes\rect.cpp
 
-CMakeFiles/main.dir/primitiveShapes/rect.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/primitiveShapes/rect.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\tyler\Desktop\Coding\C++\Projects\ChordChart\primitiveShapes\rect.cpp > CMakeFiles\main.dir\primitiveShapes\rect.cpp.i
+CMakeFiles/main.dir/components/primitiveShapes/rect.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/components/primitiveShapes/rect.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\tyler\Desktop\Coding\C++\Projects\ChordChart\components\primitiveShapes\rect.cpp > CMakeFiles\main.dir\components\primitiveShapes\rect.cpp.i
 
-CMakeFiles/main.dir/primitiveShapes/rect.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/primitiveShapes/rect.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\tyler\Desktop\Coding\C++\Projects\ChordChart\primitiveShapes\rect.cpp -o CMakeFiles\main.dir\primitiveShapes\rect.cpp.s
+CMakeFiles/main.dir/components/primitiveShapes/rect.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/components/primitiveShapes/rect.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\tyler\Desktop\Coding\C++\Projects\ChordChart\components\primitiveShapes\rect.cpp -o CMakeFiles\main.dir\components\primitiveShapes\rect.cpp.s
 
-CMakeFiles/main.dir/primitiveShapes/shape.cpp.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/primitiveShapes/shape.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
-CMakeFiles/main.dir/primitiveShapes/shape.cpp.obj: ../primitiveShapes/shape.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\tyler\Desktop\Coding\C++\Projects\ChordChart\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/primitiveShapes/shape.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\main.dir\primitiveShapes\shape.cpp.obj -c C:\Users\tyler\Desktop\Coding\C++\Projects\ChordChart\primitiveShapes\shape.cpp
+CMakeFiles/main.dir/components/primitiveShapes/shape.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/components/primitiveShapes/shape.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/components/primitiveShapes/shape.cpp.obj: ../components/primitiveShapes/shape.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\tyler\Desktop\Coding\C++\Projects\ChordChart\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/components/primitiveShapes/shape.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\main.dir\components\primitiveShapes\shape.cpp.obj -c C:\Users\tyler\Desktop\Coding\C++\Projects\ChordChart\components\primitiveShapes\shape.cpp
 
-CMakeFiles/main.dir/primitiveShapes/shape.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/primitiveShapes/shape.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\tyler\Desktop\Coding\C++\Projects\ChordChart\primitiveShapes\shape.cpp > CMakeFiles\main.dir\primitiveShapes\shape.cpp.i
+CMakeFiles/main.dir/components/primitiveShapes/shape.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/components/primitiveShapes/shape.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\tyler\Desktop\Coding\C++\Projects\ChordChart\components\primitiveShapes\shape.cpp > CMakeFiles\main.dir\components\primitiveShapes\shape.cpp.i
 
-CMakeFiles/main.dir/primitiveShapes/shape.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/primitiveShapes/shape.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\tyler\Desktop\Coding\C++\Projects\ChordChart\primitiveShapes\shape.cpp -o CMakeFiles\main.dir\primitiveShapes\shape.cpp.s
+CMakeFiles/main.dir/components/primitiveShapes/shape.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/components/primitiveShapes/shape.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\tyler\Desktop\Coding\C++\Projects\ChordChart\components\primitiveShapes\shape.cpp -o CMakeFiles\main.dir\components\primitiveShapes\shape.cpp.s
+
+CMakeFiles/main.dir/models/scales.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/models/scales.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/models/scales.cpp.obj: ../models/scales.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\tyler\Desktop\Coding\C++\Projects\ChordChart\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/models/scales.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\main.dir\models\scales.cpp.obj -c C:\Users\tyler\Desktop\Coding\C++\Projects\ChordChart\models\scales.cpp
+
+CMakeFiles/main.dir/models/scales.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/models/scales.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\tyler\Desktop\Coding\C++\Projects\ChordChart\models\scales.cpp > CMakeFiles\main.dir\models\scales.cpp.i
+
+CMakeFiles/main.dir/models/scales.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/models/scales.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\tyler\Desktop\Coding\C++\Projects\ChordChart\models\scales.cpp -o CMakeFiles\main.dir\models\scales.cpp.s
+
+CMakeFiles/main.dir/models/chords.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/models/chords.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/models/chords.cpp.obj: ../models/chords.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\tyler\Desktop\Coding\C++\Projects\ChordChart\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main.dir/models/chords.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\main.dir\models\chords.cpp.obj -c C:\Users\tyler\Desktop\Coding\C++\Projects\ChordChart\models\chords.cpp
+
+CMakeFiles/main.dir/models/chords.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/models/chords.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\tyler\Desktop\Coding\C++\Projects\ChordChart\models\chords.cpp > CMakeFiles\main.dir\models\chords.cpp.i
+
+CMakeFiles/main.dir/models/chords.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/models/chords.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\tyler\Desktop\Coding\C++\Projects\ChordChart\models\chords.cpp -o CMakeFiles\main.dir\models\chords.cpp.s
 
 # Object files for target main
 main_OBJECTS = \
 "CMakeFiles/main.dir/main.cpp.obj" \
 "CMakeFiles/main.dir/components/chord-chart/chordChart.cpp.obj" \
 "CMakeFiles/main.dir/components/cof/cof.cpp.obj" \
-"CMakeFiles/main.dir/primitiveShapes/circle.cpp.obj" \
-"CMakeFiles/main.dir/primitiveShapes/cone.cpp.obj" \
-"CMakeFiles/main.dir/primitiveShapes/rect.cpp.obj" \
-"CMakeFiles/main.dir/primitiveShapes/shape.cpp.obj"
+"CMakeFiles/main.dir/components/primitiveShapes/circle.cpp.obj" \
+"CMakeFiles/main.dir/components/primitiveShapes/cone.cpp.obj" \
+"CMakeFiles/main.dir/components/primitiveShapes/rect.cpp.obj" \
+"CMakeFiles/main.dir/components/primitiveShapes/shape.cpp.obj" \
+"CMakeFiles/main.dir/models/scales.cpp.obj" \
+"CMakeFiles/main.dir/models/chords.cpp.obj"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
@@ -190,15 +220,17 @@ main_EXTERNAL_OBJECTS =
 main.exe: CMakeFiles/main.dir/main.cpp.obj
 main.exe: CMakeFiles/main.dir/components/chord-chart/chordChart.cpp.obj
 main.exe: CMakeFiles/main.dir/components/cof/cof.cpp.obj
-main.exe: CMakeFiles/main.dir/primitiveShapes/circle.cpp.obj
-main.exe: CMakeFiles/main.dir/primitiveShapes/cone.cpp.obj
-main.exe: CMakeFiles/main.dir/primitiveShapes/rect.cpp.obj
-main.exe: CMakeFiles/main.dir/primitiveShapes/shape.cpp.obj
+main.exe: CMakeFiles/main.dir/components/primitiveShapes/circle.cpp.obj
+main.exe: CMakeFiles/main.dir/components/primitiveShapes/cone.cpp.obj
+main.exe: CMakeFiles/main.dir/components/primitiveShapes/rect.cpp.obj
+main.exe: CMakeFiles/main.dir/components/primitiveShapes/shape.cpp.obj
+main.exe: CMakeFiles/main.dir/models/scales.cpp.obj
+main.exe: CMakeFiles/main.dir/models/chords.cpp.obj
 main.exe: CMakeFiles/main.dir/build.make
 main.exe: CMakeFiles/main.dir/linklibs.rsp
 main.exe: CMakeFiles/main.dir/objects1.rsp
 main.exe: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\tyler\Desktop\Coding\C++\Projects\ChordChart\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable main.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\tyler\Desktop\Coding\C++\Projects\ChordChart\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable main.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\main.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,10 +1,15 @@
 #include "main.h"
-#include "primitiveShapes/circle.h"
-#include "primitiveShapes/cone.h"
+#include "components/primitiveShapes/circle.h"
+#include "components/primitiveShapes/cone.h"
 #include "components/chord-chart/chordChart.h"
 #include "components/cof/cof.h"
+#include "models/scales.h"
+#include "models/chords.h"
+#include <iostream>
 #include <ctime>
 #include <vector>
+
+#include "models/scales.h"
 using namespace std;
 
 GLdouble width, height;
@@ -20,8 +25,9 @@ const color red(.5, 0, 0);
 
 ChordChart chordChart;
 bool canDraw = false;
-// Window settings
+
 void init() {
+
     width = 1600;
     height = 900;
     srand(time(0));
@@ -29,6 +35,18 @@ void init() {
 
 void initGL() {
     glClearColor(0, 90/255.0, 130/255.0, 1);
+}
+
+void initTests() {
+    //    Scales scales;
+    //    scales.diatonic();
+
+    std::vector<std::string> scale = {"C", "D", "E", "F", "G", "A", "B"}; // This will come from scales class
+
+    Chords chords;
+    chords.thirteenthChords(scale);
+    std::cout << "\n";
+    chords.seventhChords(scale);
 }
 
 void display() {
@@ -88,17 +106,18 @@ int main(int argc, char** argv) {
 
     glutInitWindowSize((int)width, (int)height);
     glutInitWindowPosition(300, 150);
-    wd = glutCreateWindow("Chord Chart");
+    //wd = glutCreateWindow("Chord Chart");
 
     initGL();
+    initTests();
 
-    glutDisplayFunc(display);
+    //glutDisplayFunc(display);
 
     glutKeyboardFunc(kbd);
-    glutPassiveMotionFunc(cursor);
+    //glutPassiveMotionFunc(cursor);
 
-    glutSetCursor(GLUT_CURSOR_DESTROY);
+    //glutSetCursor(GLUT_CURSOR_DESTROY);
 
-    glutMainLoop();
+    //glutMainLoop();
     return 0;
 }
